@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './styles.css';
+import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-  <React.StrictMode><main><h1>Language Atlas</h1><p>A history of programming ideas.</p></main></React.StrictMode>,
+  <React.StrictMode><App /></React.StrictMode>,
 );
