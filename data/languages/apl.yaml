@@ -1,0 +1,39 @@
+schemaVersion: 1
+language:
+  id: apl
+  name: APL
+  aliases: []
+  introduction: apl-intro
+  summary: A notation-centered language that applies compact operators to whole arrays.
+  paradigms:
+    - Array-oriented
+    - Functional
+milestones:
+  - id: apl-intro
+    language: apl
+    date:
+      year: 1962
+    title: A Programming Language published
+    kind: introduction
+    explanation: Iverson publishes the mathematical notation from which executable APL develops.
+    citations:
+      - apl-history
+  - id: apl-360
+    language: apl
+    date:
+      year: 1966
+    title: APL\360 becomes available
+    kind: feature
+    explanation: An interactive implementation brings the notation to IBM time-sharing systems.
+    citations:
+      - apl-history
+  - id: apl-iso
+    language: apl
+    date:
+      year: 1989
+    title: ISO APL standard
+    kind: standard
+    explanation: ISO 8485 defines a standardized core for APL.
+    citations:
+      - apl-history
+influences: []

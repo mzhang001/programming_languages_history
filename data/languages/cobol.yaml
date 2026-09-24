@@ -1,0 +1,53 @@
+schemaVersion: 1
+language:
+  id: cobol
+  name: COBOL
+  aliases: []
+  introduction: cobol-intro
+  summary: A business-oriented language emphasizing readable statements and explicit descriptions of
+    records and data.
+  paradigms:
+    - Imperative
+    - Object-oriented
+milestones:
+  - id: cobol-intro
+    language: cobol
+    date:
+      year: 1960
+    title: COBOL 60 report
+    kind: introduction
+    explanation: The first report publishes a shared language design for business data processing,
+      following committee work in 1959.
+    citations:
+      - cobol-history
+  - id: cobol-68
+    language: cobol
+    date:
+      year: 1968
+    title: First ANSI standard
+    kind: standard
+    version: "68"
+    explanation: Standardization provides a common target for different business-computing systems.
+    citations:
+      - cobol-history
+  - id: cobol-85
+    language: cobol
+    date:
+      year: 1985
+    title: Structured control
+    kind: standard
+    version: "85"
+    explanation: The revised standard expands structured programming constructs and nested programs.
+    citations:
+      - cobol-history
+  - id: cobol-2002
+    language: cobol
+    date:
+      year: 2002
+    title: Object-oriented standard
+    kind: standard
+    version: "2002"
+    explanation: The standard adds object-oriented facilities and user-defined functions.
+    citations:
+      - cobol-history
+influences: []

@@ -1,0 +1,47 @@
+schemaVersion: 1
+language:
+  id: algol
+  name: ALGOL
+  aliases:
+    - ALGOL 60
+    - ALGOL 68
+  introduction: algol-intro
+  summary: An influential language family that helped establish block structure and precise
+    descriptions of programming syntax.
+  paradigms:
+    - Imperative
+  scope: ALGOL 58, 60, and 68 are related designs, not simply compatible releases. Connections
+    identify the relevant variant where possible.
+milestones:
+  - id: algol-intro
+    language: algol
+    date:
+      year: 1958
+    title: ALGOL 58 report
+    kind: introduction
+    version: "58"
+    explanation: An international effort publishes an algorithmic language for expressing numerical
+      computations.
+    citations:
+      - algol-history
+  - id: algol-60
+    language: algol
+    date:
+      year: 1960
+    title: ALGOL 60 report
+    kind: standard
+    version: "60"
+    explanation: Nested blocks and lexical scope become defining features of ALGOL 60.
+    citations:
+      - algol-history
+  - id: algol-68
+    language: algol
+    date:
+      year: 1968
+    title: ALGOL 68 report
+    kind: standard
+    version: "68"
+    explanation: A distinct successor introduces a more systematic type system and orthogonal language design.
+    citations:
+      - algol-history
+influences: []

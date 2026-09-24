@@ -1,0 +1,44 @@
+schemaVersion: 1
+language:
+  id: haskell
+  name: Haskell
+  aliases: []
+  introduction: haskell-intro
+  summary: A lazy, purely functional language that makes types and composition central to program design.
+  paradigms:
+    - Functional
+milestones:
+  - id: haskell-intro
+    language: haskell
+    date:
+      year: 1990
+    title: Haskell 1.0 report
+    kind: introduction
+    version: "1.0"
+    explanation: The first language report defines a shared lazy functional language for research and
+      implementation.
+    citations:
+      - haskell-definition
+  - id: haskell-98
+    language: haskell
+    date:
+      year: 1999
+    title: Haskell 98 report published
+    kind: standard
+    version: "98"
+    explanation: The Haskell 98 report establishes a stable language and library baseline. The name
+      refers to 1998; the report was published in 1999.
+    citations:
+      - haskell-definition
+  - id: haskell-2010
+    language: haskell
+    date:
+      year: 2010
+    title: Haskell 2010 report
+    kind: standard
+    version: "2010"
+    explanation: A revised standard incorporates features including the foreign function interface and
+      hierarchical module names.
+    citations:
+      - haskell-2010
+influences: []

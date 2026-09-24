@@ -1,0 +1,61 @@
+schemaVersion: 1
+language:
+  id: scala
+  name: Scala
+  aliases: []
+  introduction: scala-intro
+  summary: A language that unifies objects and functions while interoperating with Java on the JVM.
+  paradigms:
+    - Functional
+    - Object-oriented
+milestones:
+  - id: scala-intro
+    language: scala
+    date:
+      year: 2004
+    title: Scala publicly released
+    kind: introduction
+    explanation: Scala becomes publicly available with a design combining functional and object-oriented
+      programming.
+    citations:
+      - scala-history
+  - id: scala-2
+    language: scala
+    date:
+      year: 2006
+    title: Scala 2
+    kind: semantics
+    version: "2"
+    explanation: A redesigned implementation develops the language and its type system.
+    citations:
+      - scala-history
+  - id: scala-3
+    language: scala
+    date:
+      year: 2021
+    title: Scala 3
+    kind: semantics
+    version: "3"
+    explanation: The Dotty-based revision introduces a redesigned type system and contextual abstractions.
+    citations:
+      - scala-history
+influences:
+  - id: java-scala-intro
+    source: java
+    destination: scala-intro
+    title: A shared object ecosystem
+    adopted: Java-compatible classes and access to JVM libraries.
+    changed: Scala integrates functions, pattern matching, and a richer type system.
+    evidence: documented
+    citations:
+      - scala-overview
+  - id: ml-scala-intro
+    source: ml
+    destination: scala-intro
+    title: Pattern matching and inference
+    adopted: Typed functional techniques associated with the ML family.
+    changed: Scala brings them into a language where objects and functions share a common model.
+    evidence: documented
+    citations:
+      - scala-overview
+    caveat: The overview discusses ML-family predecessors, rather than one dialect alone.

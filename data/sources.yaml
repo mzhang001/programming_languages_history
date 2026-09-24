@@ -1,0 +1,250 @@
+- id: haskell-definition
+  title: Haskell language definitions
+  author: Haskell Committee
+  url: https://www.haskell.org/definition/
+  section: Historic development and language reports
+- id: python-history
+  title: History and License
+  author: Python Software Foundation
+  url: https://docs.python.org/3/license.html
+  section: History of the software; release table
+- id: python-comprehensions
+  title: PEP 202 — List Comprehensions
+  author: Barry Warsaw
+  url: https://peps.python.org/pep-0202/
+  section: Python-Version, rationale and examples
+- id: python-functional
+  title: Functional Programming HOWTO
+  author: A. M. Kuchling / Python documentation
+  url: https://docs.python.org/3/howto/functional.html
+  section: Generator expressions and list comprehensions
+- id: python-3
+  title: What's New In Python 3.0
+  author: Python Software Foundation
+  url: https://docs.python.org/3/whatsnew/3.0.html
+  section: Print is a function; text versus data
+- id: python-patterns
+  title: PEP 635 — Structural Pattern Matching, Motivation and Rationale
+  author: Tobias Kohn and Guido van Rossum
+  url: https://peps.python.org/pep-0635/
+  section: Python-Version and rationale
+- id: fortran-history
+  title: Fortran — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Fortran
+  section: History, versions, and references
+- id: lisp-history
+  title: Lisp — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Lisp_(programming_language)
+  section: History, versions, and references
+- id: cobol-history
+  title: COBOL — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/COBOL
+  section: History, versions, and references
+- id: algol-history
+  title: ALGOL — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/ALGOL
+  section: History, versions, and references
+- id: apl-history
+  title: APL — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/APL_(programming_language)
+  section: History, versions, and references
+- id: basic-history
+  title: BASIC — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/BASIC
+  section: History, versions, and references
+- id: simula-history
+  title: Simula — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Simula
+  section: History, versions, and references
+- id: pascal-history
+  title: Pascal — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Pascal_(programming_language)
+  section: History, versions, and references
+- id: c-history
+  title: C — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/C_(programming_language)
+  section: History, versions, and references
+- id: smalltalk-history
+  title: Smalltalk — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Smalltalk
+  section: History, versions, and references
+- id: prolog-history
+  title: Prolog — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Prolog
+  section: History, versions, and references
+- id: ml-history
+  title: ML — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/ML_(programming_language)
+  section: History, versions, and references
+- id: scheme-history
+  title: Scheme — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Scheme_(programming_language)
+  section: History, versions, and references
+- id: sql-history
+  title: SQL — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/SQL
+  section: History, versions, and references
+- id: ada-history
+  title: Ada — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Ada_(programming_language)
+  section: History, versions, and references
+- id: cpp-history
+  title: C++ — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/C%2B%2B
+  section: History, versions, and references
+- id: objective-c-history
+  title: Objective-C — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Objective-C
+  section: History, versions, and references
+- id: erlang-history
+  title: Erlang — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Erlang_(programming_language)
+  section: History, versions, and references
+- id: perl-history
+  title: Perl — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Perl
+  section: History, versions, and references
+- id: lua-history
+  title: Lua — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Lua_(programming_language)
+  section: History, versions, and references
+- id: java-history
+  title: Java — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Java_(programming_language)
+  section: History, versions, and references
+- id: javascript-history
+  title: JavaScript — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/JavaScript
+  section: History, versions, and references
+- id: csharp-history
+  title: C# — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/C_Sharp_(programming_language)
+  section: History, versions, and references
+- id: scala-history
+  title: Scala — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Scala_(programming_language)
+  section: History, versions, and references
+- id: go-history
+  title: Go — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Go_(programming_language)
+  section: History, versions, and references
+- id: rust-history
+  title: Rust — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Rust_(programming_language)
+  section: History, versions, and references
+- id: kotlin-history
+  title: Kotlin — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Kotlin_(programming_language)
+  section: History, versions, and references
+- id: swift-history
+  title: Swift — historical overview
+  author: Wikipedia contributors
+  url: https://en.wikipedia.org/wiki/Swift_(programming_language)
+  section: History, versions, and references
+- id: cpp-design
+  title: Bjarne Stroustrup's FAQ
+  author: Bjarne Stroustrup
+  url: https://www.stroustrup.com/bs_faq.html
+  section: History of C++; C compatibility; Simula and classes
+- id: rust-influences
+  title: Influences — The Rust Reference
+  author: Rust project contributors
+  url: https://doc.rust-lang.org/reference/influences.html
+  section: Influences
+- id: go-ancestors
+  title: Frequently Asked Questions
+  author: Go project
+  url: https://go.dev/doc/faq
+  section: What are Go’s ancestors?
+- id: c-development
+  title: The Development of the C Language
+  author: Dennis M. Ritchie
+  url: https://www.nokia.com/bell-labs/about/dennis-m-ritchie/chist.html
+  section: "Origins: the languages; More history"
+- id: erlang-origins
+  title: History of Erlang
+  author: Erlang/OTP project
+  url: https://www.erlang.org/course/history.html
+  section: Language experiments and chronology
+- id: lua-versions
+  title: Lua version history
+  author: Lua authors
+  url: https://www.lua.org/versions.html
+  section: Lua 5.0 and Lua 5.3
+- id: js-origins
+  title: "JavaScript: The First 20 Years"
+  author: Allen Wirfs-Brock and Brendan Eich
+  url: https://www.wirfs-brock.com/allen/jshopl.pdf
+  section: "Part 1: Origins"
+- id: scala-overview
+  title: An Overview of the Scala Programming Language
+  author: Martin Odersky and collaborators
+  url: https://www.scala-lang.org/docu/files/ScalaOverview.pdf
+  section: Related work; Java interoperability
+- id: swift-about
+  title: About Swift
+  author: Swift project
+  url: https://www.swift.org/about/
+  section: Features; language goals
+- id: kotlin-faq
+  title: Kotlin FAQ
+  author: JetBrains
+  url: https://kotlinlang.org/docs/faq.html
+  section: What is Kotlin?; Java interoperability
+- id: scheme-report
+  title: Revised Report on the Algorithmic Language Scheme
+  author: Sussman, Steele, and collaborators
+  url: https://standards.scheme.org/official/r5rs.pdf
+  section: Introduction; background
+- id: smalltalk-kay
+  title: The Early History of Smalltalk
+  author: Alan C. Kay
+  url: https://worrydream.com/EarlyHistoryOfSmalltalk/
+  section: Simula and Lisp influences
+- id: haskell-2010
+  title: Haskell 2010 Language Report
+  author: Haskell Committee
+  url: https://www.haskell.org/onlinereport/haskell2010/
+  section: Preface and language changes
+- id: c-unix4
+  title: Unix Fourth Edition manual
+  author: Bell Laboratories
+  url: https://www.tuhs.org/Archive/Distributions/Research/Dennis_v4/
+  section: 1973 manual and C language documentation
+- id: simula-origins
+  title: The Development of the SIMULA Languages
+  author: Kristen Nygaard and Ole-Johan Dahl
+  url: https://www.hannemyr.com/cache/knojd_acm78.pdf
+  section: "Section 2.1 and bibliography: IFIP 1962 presentation"
+- id: erlang-armstrong
+  title: A History of Erlang
+  author: Joe Armstrong
+  url: https://www.math.bas.bg/softeng/bantchev/place/erlang/a-history-of-erlang.pdf
+  section: "Section 4.2: the 1989 SETSS conference and external users"

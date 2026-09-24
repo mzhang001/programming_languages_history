@@ -5,10 +5,10 @@
   "type": "module",
   "packageManager": "pnpm@11.7.0",
   "scripts": {
-    "dev": "vite",
-    "build:data": "tsx scripts/build-data.ts",
-    "validate": "tsx scripts/build-data.ts --check",
-    "build": "tsc -b && vite build",
+    "dev": "pnpm build:data && vite",
+    "build:data": "node --import tsx scripts/build-data.ts",
+    "validate": "node --import tsx scripts/build-data.ts --check",
+    "build": "pnpm build:data && tsc -b && vite build",
     "preview": "vite preview",
     "typecheck": "tsc -b",
     "lint": "eslint .",
@@ -16,7 +16,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "check": "pnpm validate && pnpm typecheck && pnpm lint && pnpm test && pnpm build",
-    "check:links": "tsx scripts/check-links.ts"
+    "check:links": "node --import tsx scripts/check-links.ts"
   },
   "dependencies": {
     "d3-scale": "^4.0.2",

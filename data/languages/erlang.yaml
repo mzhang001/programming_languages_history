@@ -1,0 +1,52 @@
+schemaVersion: 1
+language:
+  id: erlang
+  name: Erlang
+  aliases: []
+  introduction: erlang-intro
+  summary: A functional language for concurrent, fault-tolerant systems with isolated processes and
+    message passing.
+  paradigms:
+    - Functional
+    - Concurrent
+milestones:
+  - id: erlang-intro
+    language: erlang
+    date:
+      year: 1989
+    title: Public conference presentation
+    kind: introduction
+    explanation: The team presents its work at SETSS outside Ericsson. Erlang had been developed
+      internally since 1986; external delivery follows in 1990.
+    citations:
+      - erlang-armstrong
+  - id: erlang-open
+    language: erlang
+    date:
+      year: 1998
+    title: Open-source release
+    kind: feature
+    explanation: Erlang and its runtime become available as open-source software.
+    citations:
+      - erlang-history
+  - id: erlang-maps
+    language: erlang
+    date:
+      year: 2014
+    title: Maps in Erlang/OTP 17
+    kind: feature
+    version: OTP 17
+    explanation: A native map data type adds flexible key-value structures.
+    citations:
+      - erlang-history
+influences:
+  - id: prolog-erlang-intro
+    source: prolog
+    destination: erlang-intro
+    title: Pattern-driven clauses
+    adopted: Prolog-inspired syntax and pattern-based function clauses.
+    changed: Erlang centers deterministic functional evaluation, isolated processes, and message passing
+      rather than general backtracking search.
+    evidence: documented
+    citations:
+      - erlang-origins

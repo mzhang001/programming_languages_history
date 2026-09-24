@@ -1,0 +1,60 @@
+schemaVersion: 1
+language:
+  id: smalltalk
+  name: Smalltalk
+  aliases: []
+  introduction: smalltalk-intro
+  summary: An object-centered language and live programming environment built around sending messages.
+  paradigms:
+    - Object-oriented
+milestones:
+  - id: smalltalk-intro
+    language: smalltalk
+    date:
+      year: 1972
+    title: Smalltalk-72 demonstrated
+    kind: introduction
+    version: "72"
+    explanation: An early implementation is demonstrated outside Xerox PARC at the MIT AI Lab.
+    citations:
+      - smalltalk-history
+  - id: smalltalk-80
+    language: smalltalk
+    date:
+      year: 1980
+    title: Smalltalk-80
+    kind: semantics
+    version: "80"
+    explanation: A revised system establishes the class and metaclass structure associated with modern
+      Smalltalk.
+    citations:
+      - smalltalk-history
+  - id: smalltalk-ansi
+    language: smalltalk
+    date:
+      year: 1998
+    title: ANSI Smalltalk
+    kind: standard
+    explanation: An ANSI standard defines the language independently of a particular environment.
+    citations:
+      - smalltalk-history
+influences:
+  - id: simula-smalltalk-intro
+    source: simula
+    destination: smalltalk-intro
+    title: Objects as a programming model
+    adopted: Simula’s insight that programs can be organized around objects.
+    changed: Smalltalk emphasizes a pervasive message-passing model and a live environment.
+    evidence: documented
+    citations:
+      - smalltalk-kay
+    sourceMilestone: simula-67
+  - id: lisp-smalltalk-intro
+    source: lisp
+    destination: smalltalk-intro
+    title: A malleable language environment
+    adopted: Lisp’s influence on interactive, reflective language design.
+    changed: Smalltalk makes objects and messages the organizing vocabulary.
+    evidence: documented
+    citations:
+      - smalltalk-kay

@@ -1,0 +1,46 @@
+schemaVersion: 1
+language:
+  id: perl
+  name: Perl
+  aliases:
+    - Perl 5
+  introduction: perl-intro
+  summary: A practical language for text processing and scripting, integrating expressive patterns and
+    flexible data structures.
+  paradigms:
+    - Imperative
+    - Object-oriented
+  scope: Perl 6 was renamed Raku and is a separate language; it is not represented as a Perl release here.
+milestones:
+  - id: perl-intro
+    language: perl
+    date:
+      year: 1987
+    title: Perl 1 released
+    kind: introduction
+    version: "1"
+    explanation: Larry Wall releases a language for text manipulation and system administration.
+    citations:
+      - perl-history
+  - id: perl-5
+    language: perl
+    date:
+      year: 1994
+    title: Perl 5
+    kind: semantics
+    version: "5"
+    explanation: References, lexical variables, and packages support larger programs and object-oriented
+      techniques.
+    citations:
+      - perl-history
+  - id: perl-510
+    language: perl
+    date:
+      year: 2007
+    title: Perl 5.10
+    kind: feature
+    version: "5.10"
+    explanation: The release adds named captures and other regular-expression improvements.
+    citations:
+      - perl-history
+influences: []

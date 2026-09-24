@@ -1,0 +1,42 @@
+schemaVersion: 1
+language:
+  id: sql
+  name: SQL
+  aliases:
+    - SEQUEL
+  introduction: sql-intro
+  summary: A declarative language for describing and querying relational data rather than specifying
+    each execution step.
+  paradigms:
+    - Declarative
+milestones:
+  - id: sql-intro
+    language: sql
+    date:
+      year: 1974
+    title: SEQUEL paper
+    kind: introduction
+    explanation: Chamberlin and Boyce publish the relational query language that develops into SQL.
+    citations:
+      - sql-history
+  - id: sql-86
+    language: sql
+    date:
+      year: 1986
+    title: ANSI SQL standard
+    kind: standard
+    version: "86"
+    explanation: A first ANSI standard establishes a portable core for relational queries.
+    citations:
+      - sql-history
+  - id: sql-99
+    language: sql
+    date:
+      year: 1999
+    title: SQL:1999
+    kind: standard
+    version: "1999"
+    explanation: The expanded standard introduces recursive queries and object-relational features.
+    citations:
+      - sql-history
+influences: []

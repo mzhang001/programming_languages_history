@@ -1,0 +1,52 @@
+schemaVersion: 1
+language:
+  id: swift
+  name: Swift
+  aliases: []
+  introduction: swift-intro
+  summary: A language combining expressive types and safety-oriented defaults with native application
+    performance.
+  paradigms:
+    - Object-oriented
+    - Functional
+    - Generic
+milestones:
+  - id: swift-intro
+    language: swift
+    date:
+      year: 2014
+    title: Swift announced
+    kind: introduction
+    explanation: Apple introduces Swift alongside its existing Objective-C development tools.
+    citations:
+      - swift-history
+  - id: swift-open
+    language: swift
+    date:
+      year: 2015
+    title: Swift becomes open source
+    kind: feature
+    explanation: The compiler and core libraries become an open-source project with public evolution proposals.
+    citations:
+      - swift-history
+  - id: swift-5
+    language: swift
+    date:
+      year: 2019
+    title: ABI stability
+    kind: standard
+    version: "5.0"
+    explanation: Swift 5 stabilizes the binary interface on Apple platforms.
+    citations:
+      - swift-history
+  - id: swift-async
+    language: swift
+    date:
+      year: 2021
+    title: Structured concurrency
+    kind: feature
+    version: "5.5"
+    explanation: Swift 5.5 adds async/await, actors, and structured concurrency.
+    citations:
+      - swift-history
+influences: []

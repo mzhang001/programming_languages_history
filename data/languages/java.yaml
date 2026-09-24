@@ -1,0 +1,52 @@
+schemaVersion: 1
+language:
+  id: java
+  name: Java
+  aliases: []
+  introduction: java-intro
+  summary: A class-based language designed for portable execution, with a managed runtime and a large
+    library ecosystem.
+  paradigms:
+    - Object-oriented
+    - Imperative
+milestones:
+  - id: java-intro
+    language: java
+    date:
+      year: 1995
+    title: Public Java launch
+    kind: introduction
+    explanation: Sun publicly introduces Java and its portable execution platform.
+    citations:
+      - java-history
+  - id: java-5
+    language: java
+    date:
+      year: 2004
+    title: Generics and annotations
+    kind: feature
+    version: "5"
+    explanation: Java 5 adds generic types, annotations, enums, and enhanced iteration.
+    citations:
+      - java-history
+  - id: java-8
+    language: java
+    date:
+      year: 2014
+    title: Lambda expressions
+    kind: feature
+    version: "8"
+    explanation: Java 8 adds lambdas and default interface methods, enabling functional-style APIs.
+    citations:
+      - java-history
+  - id: java-16
+    language: java
+    date:
+      year: 2021
+    title: Records finalized
+    kind: feature
+    version: "16"
+    explanation: Records provide a concise declaration for transparent data carriers.
+    citations:
+      - java-history
+influences: []

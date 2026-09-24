@@ -1,0 +1,52 @@
+schemaVersion: 1
+language:
+  id: pascal
+  name: Pascal
+  aliases:
+    - Object Pascal
+  introduction: pascal-intro
+  summary: A structured language that combines readable control flow with explicit types and data
+    structures.
+  paradigms:
+    - Imperative
+  scope: Object Pascal is a related extension family. This row focuses on Pascal and Extended Pascal
+    standards.
+milestones:
+  - id: pascal-intro
+    language: pascal
+    date:
+      year: 1970
+    title: Pascal introduced
+    kind: introduction
+    explanation: Wirth introduces Pascal as a compact language for structured programming and teaching.
+    citations:
+      - pascal-history
+  - id: pascal-iso
+    language: pascal
+    date:
+      year: 1983
+    title: ISO 7185 standard
+    kind: standard
+    explanation: An international standard specifies a common Pascal language.
+    citations:
+      - pascal-history
+  - id: pascal-extended
+    language: pascal
+    date:
+      year: 1990
+    title: Extended Pascal
+    kind: standard
+    explanation: ISO 10206 extends Pascal with modules and additional data-handling facilities.
+    citations:
+      - pascal-history
+influences:
+  - id: algol-pascal-intro
+    source: algol
+    destination: pascal-intro
+    title: Structured programming
+    adopted: ALGOL-family block structure and structured control flow.
+    changed: Pascal emphasizes explicit data structures and a compact teaching-oriented design.
+    evidence: documented
+    citations:
+      - pascal-history
+    caveat: The design develops through ALGOL W; this is a family-level connection.

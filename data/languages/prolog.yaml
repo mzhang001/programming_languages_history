@@ -1,0 +1,40 @@
+schemaVersion: 1
+language:
+  id: prolog
+  name: Prolog
+  aliases: []
+  introduction: prolog-intro
+  summary: A logic programming language that expresses relations through facts and rules, with
+    execution driven by queries.
+  paradigms:
+    - Logic
+milestones:
+  - id: prolog-intro
+    language: prolog
+    date:
+      year: 1973
+    title: Early Prolog report
+    kind: introduction
+    explanation: The Marseille team documents its natural-language system, following the initial 1972
+      implementation.
+    citations:
+      - prolog-history
+  - id: prolog-core
+    language: prolog
+    date:
+      year: 1995
+    title: ISO core standard
+    kind: standard
+    explanation: ISO 13211-1 standardizes the core language and built-in predicates.
+    citations:
+      - prolog-history
+  - id: prolog-modules
+    language: prolog
+    date:
+      year: 2000
+    title: ISO modules standard
+    kind: standard
+    explanation: The second part of the ISO standard specifies a module system.
+    citations:
+      - prolog-history
+influences: []

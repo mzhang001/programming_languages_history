@@ -1,0 +1,52 @@
+schemaVersion: 1
+language:
+  id: ada
+  name: Ada
+  aliases: []
+  introduction: ada-intro
+  summary: A language emphasizing explicit interfaces, strong typing, and reliable concurrent systems.
+  paradigms:
+    - Imperative
+    - Object-oriented
+milestones:
+  - id: ada-intro
+    language: ada
+    date:
+      year: 1980
+    title: First Ada standard
+    kind: introduction
+    explanation: The first ANSI/MIL-STD 1815 publishes the Ada design. A revised standard follows in 1983.
+    citations:
+      - ada-history
+  - id: ada-83
+    language: ada
+    date:
+      year: 1983
+    title: Ada 83 standard
+    kind: standard
+    version: "83"
+    explanation: The standard defines packages, generics, exceptions, and tasking.
+    citations:
+      - ada-history
+  - id: ada-95
+    language: ada
+    date:
+      year: 1995
+    title: Ada 95
+    kind: feature
+    version: "95"
+    explanation: The revision adds tagged types and protected objects for object-oriented and concurrent
+      programming.
+    citations:
+      - ada-history
+  - id: ada-2012
+    language: ada
+    date:
+      year: 2012
+    title: Ada 2012
+    kind: feature
+    version: "2012"
+    explanation: Contracts, including preconditions and postconditions, become part of the language.
+    citations:
+      - ada-history
+influences: []

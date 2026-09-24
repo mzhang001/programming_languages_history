@@ -1,0 +1,53 @@
+schemaVersion: 1
+language:
+  id: simula
+  name: Simula
+  aliases: []
+  introduction: simula-intro
+  summary: A simulation-oriented language family whose classes and inheritance helped shape
+    object-oriented programming.
+  paradigms:
+    - Object-oriented
+    - Imperative
+milestones:
+  - id: simula-intro
+    language: simula
+    date:
+      year: 1962
+    title: SIMULA presented at IFIP
+    kind: introduction
+    explanation: Nygaard presents the simulation-language design at the IFIP World Congress. The
+      proceedings appear in 1963; an implementation follows in 1965.
+    citations:
+      - simula-origins
+  - id: simula-67
+    language: simula
+    date:
+      year: 1967
+    title: Simula 67
+    kind: feature
+    version: "67"
+    explanation: Classes, objects, subclassing, and virtual procedures extend the language beyond
+      specialized simulation.
+    citations:
+      - simula-history
+  - id: simula-standard
+    language: simula
+    date:
+      year: 1986
+    title: Standard Simula definition
+    kind: standard
+    explanation: A later language definition consolidates Standard Simula.
+    citations:
+      - simula-history
+influences:
+  - id: algol-simula-intro
+    source: algol
+    destination: simula-intro
+    title: Simulation built on ALGOL
+    adopted: ALGOL 60 as the base for a simulation language.
+    changed: Simula adds simulation processes; Simula 67 later generalizes classes and inheritance.
+    evidence: documented
+    citations:
+      - simula-history
+    sourceMilestone: algol-60

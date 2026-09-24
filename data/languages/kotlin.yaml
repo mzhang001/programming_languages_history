@@ -1,0 +1,42 @@
+schemaVersion: 1
+language:
+  id: kotlin
+  name: Kotlin
+  aliases: []
+  introduction: kotlin-intro
+  summary: A pragmatic language with null-aware types and concise syntax, designed to work with
+    existing Java code.
+  paradigms:
+    - Object-oriented
+    - Functional
+milestones:
+  - id: kotlin-intro
+    language: kotlin
+    date:
+      year: 2011
+    title: Public unveiling
+    kind: introduction
+    explanation: JetBrains announces Kotlin as a language for the JVM.
+    citations:
+      - kotlin-history
+  - id: kotlin-1
+    language: kotlin
+    date:
+      year: 2016
+    title: Kotlin 1.0
+    kind: standard
+    version: "1.0"
+    explanation: The first stable release establishes a supported language and Java interoperability.
+    citations:
+      - kotlin-history
+  - id: kotlin-coroutines
+    language: kotlin
+    date:
+      year: 2018
+    title: Stable coroutines
+    kind: feature
+    version: "1.3"
+    explanation: Kotlin 1.3 stabilizes coroutine support for asynchronous programming.
+    citations:
+      - kotlin-history
+influences: []

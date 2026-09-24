@@ -1,0 +1,54 @@
+schemaVersion: 1
+language:
+  id: csharp
+  name: C#
+  aliases:
+    - C sharp
+  introduction: csharp-intro
+  summary: A typed language for the .NET runtime, evolving from class-based design toward expressive
+    queries and asynchronous programming.
+  paradigms:
+    - Object-oriented
+    - Imperative
+    - Functional
+milestones:
+  - id: csharp-intro
+    language: csharp
+    date:
+      year: 2000
+    title: C# publicly announced
+    kind: introduction
+    explanation: Microsoft introduces C# as part of the emerging .NET platform.
+    citations:
+      - csharp-history
+  - id: csharp-2
+    language: csharp
+    date:
+      year: 2005
+    title: Generics
+    kind: feature
+    version: "2.0"
+    explanation: C# 2.0 adds generics, nullable value types, and iterators.
+    citations:
+      - csharp-history
+  - id: csharp-3
+    language: csharp
+    date:
+      year: 2007
+    title: Language-integrated queries
+    kind: feature
+    version: "3.0"
+    explanation: C# 3.0 adds query expressions, lambdas, and type inference for local variables.
+    citations:
+      - csharp-history
+  - id: csharp-5
+    language: csharp
+    date:
+      year: 2012
+    title: Async and await
+    kind: feature
+    version: "5.0"
+    explanation: C# 5.0 adds language support for asynchronous methods.
+    citations:
+      - csharp-history
+influences: []

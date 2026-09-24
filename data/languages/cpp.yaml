@@ -1,0 +1,73 @@
+schemaVersion: 1
+language:
+  id: cpp
+  name: C++
+  aliases:
+    - C plus plus
+  introduction: cpp-intro
+  summary: A systems language combining C compatibility with classes, generic programming, and
+    deterministic resource management.
+  paradigms:
+    - Imperative
+    - Object-oriented
+    - Generic
+milestones:
+  - id: cpp-intro
+    language: cpp
+    date:
+      year: 1985
+    title: First commercial release
+    kind: introduction
+    explanation: C++ becomes commercially available, combining a C foundation with class-based abstraction.
+    citations:
+      - cpp-history
+  - id: cpp-98
+    language: cpp
+    date:
+      year: 1998
+    title: First ISO standard
+    kind: standard
+    version: "98"
+    explanation: C++98 standardizes the language and its template-based standard library.
+    citations:
+      - cpp-history
+  - id: cpp-11
+    language: cpp
+    date:
+      year: 2011
+    title: C++11
+    kind: feature
+    version: "11"
+    explanation: Move semantics, lambdas, and concurrency support expand the modern language.
+    citations:
+      - cpp-history
+  - id: cpp-20
+    language: cpp
+    date:
+      year: 2020
+    title: C++20
+    kind: feature
+    version: "20"
+    explanation: Concepts, ranges, coroutines, and modules become standardized language and library tools.
+    citations:
+      - cpp-history
+influences:
+  - id: c-cpp-intro
+    source: c
+    destination: cpp-intro
+    title: A systems-programming foundation
+    adopted: C syntax and a close relationship with C programs.
+    changed: Classes and stricter typing add abstraction without giving up direct systems access.
+    evidence: documented
+    citations:
+      - cpp-design
+  - id: simula-cpp-intro
+    source: simula
+    destination: cpp-intro
+    title: Classes and inheritance
+    adopted: Simula’s classes, class hierarchies, and virtual functions.
+    changed: C++ adapts these ideas to a C-based systems language.
+    evidence: documented
+    citations:
+      - cpp-design
+    sourceMilestone: simula-67

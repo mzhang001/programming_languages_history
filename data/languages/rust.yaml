@@ -1,0 +1,92 @@
+schemaVersion: 1
+language:
+  id: rust
+  name: Rust
+  aliases: []
+  introduction: rust-intro
+  summary: A systems language that combines ownership-based memory safety with expressive types and
+    predictable performance.
+  paradigms:
+    - Imperative
+    - Functional
+    - Generic
+milestones:
+  - id: rust-intro
+    language: rust
+    date:
+      year: 2010
+    title: Public announcement
+    kind: introduction
+    explanation: Mozilla publicly presents Rust while the language is still evolving.
+    citations:
+      - rust-history
+  - id: rust-1
+    language: rust
+    date:
+      year: 2015
+    title: Rust 1.0
+    kind: standard
+    version: "1.0"
+    explanation: The stable release establishes ownership, borrowing, traits, and pattern matching as
+      core tools.
+    citations:
+      - rust-history
+  - id: rust-async
+    language: rust
+    date:
+      year: 2019
+    title: Async and await stabilized
+    kind: feature
+    version: "1.39"
+    explanation: Rust 1.39 makes async functions and await syntax available on stable Rust.
+    citations:
+      - rust-history
+  - id: rust-2021
+    language: rust
+    date:
+      year: 2021
+    title: Rust 2021 edition
+    kind: semantics
+    version: "2021"
+    explanation: The edition introduces opt-in improvements while allowing crates from different
+      editions to interoperate.
+    citations:
+      - rust-history
+influences:
+  - id: cpp-rust-1
+    source: cpp
+    destination: rust-1
+    title: Deterministic resource management
+    adopted: RAII, references, and move-oriented resource management.
+    changed: Ownership and borrowing constrain aliasing and lifetimes at compile time.
+    evidence: documented
+    citations:
+      - rust-influences
+  - id: ml-rust-1
+    source: ml
+    destination: rust-1
+    title: Types that describe alternatives
+    adopted: Algebraic data types, pattern matching, and type inference from the ML family.
+    changed: Rust combines these tools with ownership and explicit systems-level control.
+    evidence: documented
+    citations:
+      - rust-influences
+    caveat: The reference names SML and OCaml; this catalog groups the family under ML.
+  - id: haskell-rust-1
+    source: haskell
+    destination: rust-1
+    title: Trait-based abstraction
+    adopted: Typeclass ideas and associated-type abstractions.
+    changed: Rust traits work within an ownership-oriented language with eager evaluation.
+    evidence: documented
+    citations:
+      - rust-influences
+  - id: scheme-rust-1
+    source: scheme
+    destination: rust-1
+    title: Hygienic macros
+    adopted: Macro hygiene as a way to avoid unintended name capture.
+    changed: Rust adapts macro expansion to its syntax and compile-time model.
+    evidence: documented
+    citations:
+      - rust-influences

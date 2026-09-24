@@ -1,0 +1,62 @@
+schemaVersion: 1
+language:
+  id: scheme
+  name: Scheme
+  aliases: []
+  introduction: scheme-intro
+  summary: A small Lisp dialect that pairs lexical scope with first-class procedures and a precise
+    treatment of control.
+  paradigms:
+    - Functional
+    - Metaprogramming
+milestones:
+  - id: scheme-intro
+    language: scheme
+    date:
+      year: 1975
+    title: First Scheme report
+    kind: introduction
+    explanation: Sussman and Steele describe a Lisp dialect with lexical scope and first-class procedures.
+    citations:
+      - scheme-history
+  - id: scheme-r5rs
+    language: scheme
+    date:
+      year: 1998
+    title: R5RS report
+    kind: standard
+    version: R5RS
+    explanation: The fifth revised report provides a compact shared definition, including hygienic
+      syntax-rules macros.
+    citations:
+      - scheme-history
+  - id: scheme-r7rs
+    language: scheme
+    date:
+      year: 2013
+    title: R7RS-small ratified
+    kind: standard
+    version: R7RS-small
+    explanation: The small-language report standardizes libraries and expands the portable core.
+    citations:
+      - scheme-history
+influences:
+  - id: lisp-scheme-intro
+    source: lisp
+    destination: scheme-intro
+    title: Symbolic expressions and procedures
+    adopted: Lisp’s expression-oriented, symbolic programming foundation.
+    changed: Scheme makes lexical scope and first-class procedures central to a small language.
+    evidence: documented
+    citations:
+      - scheme-report
+  - id: algol-scheme-intro
+    source: algol
+    destination: scheme-intro
+    title: Lexical scope
+    adopted: The statically scoped structure associated with ALGOL.
+    changed: Scheme combines lexical scope with Lisp syntax and first-class procedures.
+    evidence: documented
+    citations:
+      - scheme-report
+    sourceMilestone: algol-60

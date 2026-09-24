@@ -1,0 +1,60 @@
+schemaVersion: 1
+language:
+  id: basic
+  name: BASIC
+  aliases:
+    - Visual Basic
+  introduction: basic-intro
+  summary: A family of languages designed to make interactive programming approachable, later
+    extending into structured and visual systems.
+  paradigms:
+    - Imperative
+  scope: This family row includes distinct BASIC dialects. Implementation milestones are labeled; they
+    do not imply that every dialect adopted the same features.
+milestones:
+  - id: basic-intro
+    language: basic
+    date:
+      year: 1964
+    title: Dartmouth BASIC runs
+    kind: introduction
+    explanation: The first programs run on the Dartmouth time-sharing system in May 1964.
+    citations:
+      - basic-history
+  - id: basic-micro
+    language: basic
+    date:
+      year: 1975
+    title: Altair BASIC
+    kind: feature
+    explanation: A microcomputer implementation helps bring interactive programming to personal computers.
+    citations:
+      - basic-history
+  - id: basic-visual
+    language: basic
+    date:
+      year: 1991
+    title: Visual Basic released
+    kind: feature
+    explanation: Visual Basic combines a BASIC-derived language with event-driven application development.
+    citations:
+      - basic-history
+influences:
+  - id: fortran-basic-intro
+    source: fortran
+    destination: basic-intro
+    title: Accessible numerical programming
+    adopted: FORTRAN-influenced expressions and numerical programming idioms.
+    changed: BASIC emphasizes interactive use and a smaller beginner-oriented vocabulary.
+    evidence: documented
+    citations:
+      - basic-history
+  - id: algol-basic-intro
+    source: algol
+    destination: basic-intro
+    title: Algorithmic language ideas
+    adopted: Elements of ALGOL’s approach to expressing algorithms.
+    changed: Early BASIC adopts a simpler, line-oriented form for time-sharing users.
+    evidence: documented
+    citations:
+      - basic-history

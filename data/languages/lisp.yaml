@@ -1,0 +1,55 @@
+schemaVersion: 1
+language:
+  id: lisp
+  name: Lisp
+  aliases:
+    - Common Lisp
+    - LISP
+  introduction: lisp-intro
+  summary: A family of languages built around symbolic expressions, recursive functions, and code
+    represented as data.
+  paradigms:
+    - Functional
+    - Metaprogramming
+  scope: This row covers early Lisp and selected Common Lisp milestones. Scheme has its own row; Lisp
+    dialects are not interchangeable.
+milestones:
+  - id: lisp-intro
+    language: lisp
+    date:
+      year: 1960
+    title: Recursive functions paper
+    kind: introduction
+    explanation: McCarthy publishes the foundational account of Lisp. Development and experiments began in 1958.
+    citations:
+      - lisp-history
+  - id: lisp-15
+    language: lisp
+    date:
+      year: 1962
+    title: Lisp 1.5 manual
+    kind: standard
+    version: "1.5"
+    explanation: The manual documents an influential early Lisp system and its evaluator.
+    citations:
+      - lisp-history
+  - id: lisp-common
+    language: lisp
+    date:
+      year: 1984
+    title: Common Lisp reference
+    kind: standard
+    explanation: Common Lisp the Language describes a unifying dialect with lexical scope and a broad
+      shared vocabulary.
+    citations:
+      - lisp-history
+  - id: lisp-ansi
+    language: lisp
+    date:
+      year: 1994
+    title: ANSI Common Lisp
+    kind: standard
+    explanation: The ANSI standard formalizes Common Lisp, including its object system.
+    citations:
+      - lisp-history
+influences: []

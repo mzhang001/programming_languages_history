@@ -18,3 +18,8 @@
    their own licenses. No copied paragraphs or scraped copyrighted collections.
 8. Missing arrows mean incomplete coverage, not evidence of no influence. Never
    infer a death date from an inactive implementation.
+9. Wikipedia is welcome as a supplementary historical source and a route to
+   original references. Cite the exact article and relevant section. Write an
+   original explanation of the facts; Wikipedia prose is not relicensed by this
+   repository. For specific influence claims, prefer a designer's account or
+   language report when available.

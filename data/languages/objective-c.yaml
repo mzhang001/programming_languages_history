@@ -1,0 +1,60 @@
+schemaVersion: 1
+language:
+  id: objective-c
+  name: Objective-C
+  aliases:
+    - ObjC
+    - Obj-C
+  introduction: objective-c-intro
+  summary: A language combining C with dynamic, Smalltalk-inspired messages between objects.
+  paradigms:
+    - Object-oriented
+    - Imperative
+milestones:
+  - id: objective-c-intro
+    language: objective-c
+    date:
+      year: 1984
+    title: Objective-C released
+    kind: introduction
+    explanation: Stepstone releases an object-oriented extension to C.
+    citations:
+      - objective-c-history
+  - id: objective-c-2
+    language: objective-c
+    date:
+      year: 2007
+    title: Objective-C 2.0
+    kind: feature
+    version: "2.0"
+    explanation: Properties and fast enumeration simplify common object-oriented patterns.
+    citations:
+      - objective-c-history
+  - id: objective-c-arc
+    language: objective-c
+    date:
+      year: 2011
+    title: Automatic reference counting
+    kind: feature
+    explanation: Compiler-managed retain and release operations reduce manual ownership bookkeeping.
+    citations:
+      - objective-c-history
+influences:
+  - id: smalltalk-objective-c-intro
+    source: smalltalk
+    destination: objective-c-intro
+    title: Dynamic messages
+    adopted: Smalltalk-style messages and dynamic method lookup.
+    changed: Objective-C adds this object layer to C rather than replacing its underlying model.
+    evidence: documented
+    citations:
+      - objective-c-history
+  - id: c-objective-c-intro
+    source: c
+    destination: objective-c-intro
+    title: C as the base language
+    adopted: C declarations, expressions, and systems-level operations.
+    changed: Objective-C layers dynamic objects and message syntax over the C core.
+    evidence: documented
+    citations:
+      - objective-c-history

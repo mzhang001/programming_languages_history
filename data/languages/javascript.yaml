@@ -1,0 +1,72 @@
+schemaVersion: 1
+language:
+  id: javascript
+  name: JavaScript
+  aliases:
+    - JS
+    - ECMAScript
+  introduction: javascript-intro
+  summary: A dynamic language that combines first-class functions with prototype-based objects,
+    originally for web pages.
+  paradigms:
+    - Imperative
+    - Functional
+    - Object-oriented
+milestones:
+  - id: javascript-intro
+    language: javascript
+    date:
+      year: 1995
+    title: Browser scripting debut
+    kind: introduction
+    explanation: Netscape introduces the language that becomes JavaScript in its browser.
+    citations:
+      - javascript-history
+  - id: javascript-ecma
+    language: javascript
+    date:
+      year: 1997
+    title: First ECMAScript standard
+    kind: standard
+    explanation: ECMA-262 specifies a shared core independently of a browser implementation.
+    citations:
+      - javascript-history
+  - id: javascript-2015
+    language: javascript
+    date:
+      year: 2015
+    title: ECMAScript 2015
+    kind: feature
+    version: ES2015
+    explanation: Modules, classes, lexical declarations, and arrow functions substantially expand the language.
+    citations:
+      - javascript-history
+  - id: javascript-async
+    language: javascript
+    date:
+      year: 2017
+    title: Async functions
+    kind: feature
+    version: ES2017
+    explanation: Async and await make promise-based asynchronous control flow easier to express.
+    citations:
+      - javascript-history
+influences:
+  - id: scheme-javascript-intro
+    source: scheme
+    destination: javascript-intro
+    title: Functions as values
+    adopted: Scheme-inspired first-class functions and lexical closures.
+    changed: JavaScript expresses them in a dynamic language with a C-like surface.
+    evidence: documented
+    citations:
+      - js-origins
+  - id: java-javascript-intro
+    source: java
+    destination: javascript-intro
+    title: A familiar surface
+    adopted: A Java-like syntactic presentation intended to be approachable to Java developers.
+    changed: JavaScript uses dynamic typing and prototype-based objects instead of Java’s class model.
+    evidence: documented
+    citations:
+      - js-origins

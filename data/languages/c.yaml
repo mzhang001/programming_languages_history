@@ -1,0 +1,75 @@
+schemaVersion: 1
+language:
+  id: c
+  name: C
+  aliases: []
+  introduction: c-intro
+  summary: A small systems language with explicit memory access, portable abstractions, and a lasting
+    influence on syntax.
+  paradigms:
+    - Imperative
+milestones:
+  - id: c-intro
+    language: c
+    date:
+      year: 1973
+    title: C in Unix Fourth Edition
+    kind: introduction
+    explanation: The publicly distributed Unix Fourth Edition includes C documentation. The language
+      took shape primarily in 1972.
+    citations:
+      - c-history
+      - c-unix4
+      - c-development
+  - id: c-kr
+    language: c
+    date:
+      year: 1978
+    title: K&R language description
+    kind: standard
+    explanation: The C Programming Language provides a widely available description used before formal
+      standardization.
+    citations:
+      - c-history
+  - id: c-ansi
+    language: c
+    date:
+      year: 1989
+    title: ANSI C
+    kind: standard
+    version: "89"
+    explanation: The standard introduces function prototypes and specifies a common language and library.
+    citations:
+      - c-history
+  - id: c-99
+    language: c
+    date:
+      year: 1999
+    title: C99
+    kind: feature
+    version: "99"
+    explanation: C99 adds features including declarations within for loops and designated initializers.
+    citations:
+      - c-history
+influences:
+  - id: fortran-c-intro
+    source: fortran
+    destination: c-intro
+    title: Declaration structure
+    adopted: The placement of a declaration specifier before a list of names, transmitted through B.
+    changed: C adds explicit type keywords to this declaration style.
+    evidence: documented
+    citations:
+      - c-development
+    caveat: An indirect influence through B, which is not yet a separate row.
+  - id: algol-c-intro
+    source: algol
+    destination: c-intro
+    title: Compound assignment
+    adopted: ALGOL 68’s generalized assignment notation, transmitted through TMG and B.
+    changed: Early C inherited the =+ spelling; the modern += ordering followed in 1976.
+    evidence: documented
+    citations:
+      - c-development
+    sourceMilestone: algol-68
+    caveat: An indirect influence through intermediary languages, not a direct lineage claim.

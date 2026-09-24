@@ -1,0 +1,54 @@
+schemaVersion: 1
+language:
+  id: fortran
+  name: Fortran
+  aliases: []
+  introduction: fortran-intro
+  summary: A language rooted in scientific computing, evolving from formula translation to modern
+    array and parallel programming.
+  paradigms:
+    - Imperative
+    - Array-oriented
+milestones:
+  - id: fortran-intro
+    language: fortran
+    date:
+      year: 1957
+    title: First compiler released
+    kind: introduction
+    explanation: IBM delivers the first FORTRAN compiler for the IBM 704, making mathematical formulas
+      executable.
+    citations:
+      - fortran-history
+  - id: fortran-66
+    language: fortran
+    date:
+      year: 1966
+    title: First ANSI standard
+    kind: standard
+    version: "66"
+    explanation: FORTRAN 66 establishes a portable language definition across implementations.
+    citations:
+      - fortran-history
+  - id: fortran-90
+    language: fortran
+    date:
+      year: 1991
+    title: Fortran 90 standard published
+    kind: standard
+    version: "90"
+    explanation: The ISO standard adds free-form source, modules, derived types, and whole-array
+      operations. The version name is not its publication year.
+    citations:
+      - fortran-history
+  - id: fortran-2003
+    language: fortran
+    date:
+      year: 2004
+    title: Object-oriented Fortran
+    kind: standard
+    version: "2003"
+    explanation: Publication of the Fortran 2003 standard brings type extension and interoperability with C.
+    citations:
+      - fortran-history
+influences: []

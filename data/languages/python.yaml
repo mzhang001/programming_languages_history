@@ -1,0 +1,78 @@
+schemaVersion: 1
+language:
+  id: python
+  name: Python
+  aliases:
+    - CPython
+  introduction: python-intro
+  summary: A general-purpose language built around readable syntax, dynamic objects, and a practical
+    standard library.
+  paradigms:
+    - Imperative
+    - Object-oriented
+    - Functional
+milestones:
+  - id: python-intro
+    language: python
+    date:
+      year: 1991
+    title: First public release
+    kind: introduction
+    version: 0.9.0
+    explanation: Python becomes publicly available with functions, classes, exceptions, and modules.
+    citations:
+      - python-history
+  - id: python-comprehensions
+    language: python
+    date:
+      year: 2000
+    title: List comprehensions
+    kind: feature
+    version: "2.0"
+    explanation: Comprehensions bring a concise expression for transforming and filtering a sequence
+      into a list.
+    citations:
+      - python-comprehensions
+      - python-history
+  - id: python-3
+    language: python
+    date:
+      year: 2008
+    title: Python 3 redesign
+    kind: semantics
+    version: "3.0"
+    explanation: A deliberately incompatible revision separates Unicode text from bytes and makes print
+      a function.
+    citations:
+      - python-3
+      - python-history
+  - id: python-patterns
+    language: python
+    date:
+      year: 2021
+    title: Structural pattern matching
+    kind: feature
+    version: "3.10"
+    explanation: Match statements destructure values and select cases based on the shape of data.
+    citations:
+      - python-patterns
+      - python-history
+influences:
+  - id: haskell-python-comprehensions
+    source: haskell
+    sourceMilestone: haskell-intro
+    destination: python-comprehensions
+    title: Comprehensions
+    adopted: Haskell's comprehension notation for expressing a sequence transformation with generators
+      and conditions.
+    changed: Python list comprehensions eagerly construct lists within a dynamically typed,
+      multi-paradigm language.
+    evidence: documented
+    citations:
+      - python-functional
+      - python-comprehensions
+    examples:
+      source: "[x * x | x <- [1..5], odd x]"
+      destination: "[x * x for x in range(1, 6) if x % 2]"
+      explanation: Both select odd inputs and square them. Python constructs the resulting list eagerly;
+        Haskell lists are lazy.

@@ -1,4 +1,5 @@
 node_modules/
+.pnpm-store/
 dist/
 public/data/
 coverage/
@@ -6,3 +7,5 @@ test-results/
 playwright-report/
 *.tsbuildinfo
 .DS_Store
+link-report.json
+.env.local

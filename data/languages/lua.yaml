@@ -1,0 +1,52 @@
+schemaVersion: 1
+language:
+  id: lua
+  name: Lua
+  aliases: []
+  introduction: lua-intro
+  summary: A lightweight, embeddable language using tables and functions as flexible building blocks.
+  paradigms:
+    - Imperative
+    - Functional
+milestones:
+  - id: lua-intro
+    language: lua
+    date:
+      year: 1993
+    title: Lua 1.0
+    kind: introduction
+    version: "1.0"
+    explanation: Lua is introduced as an extension language for applications.
+    citations:
+      - lua-history
+  - id: lua-5
+    language: lua
+    date:
+      year: 2003
+    title: Closures and coroutines
+    kind: feature
+    version: "5.0"
+    explanation: Lua 5.0 adds full lexical scoping, coroutines, and metatables.
+    citations:
+      - lua-history
+  - id: lua-53
+    language: lua
+    date:
+      year: 2015
+    title: Integer subtype
+    kind: feature
+    version: "5.3"
+    explanation: Lua 5.3 adds integer arithmetic and bitwise operators alongside floating-point numbers.
+    citations:
+      - lua-history
+influences:
+  - id: scheme-lua-5
+    source: scheme
+    destination: lua-5
+    title: Lexical closures
+    adopted: Scheme-inspired first-class functions and lexical scoping.
+    changed: Lua places closures alongside tables and an embeddable runtime.
+    evidence: documented
+    citations:
+      - lua-history
+      - lua-versions

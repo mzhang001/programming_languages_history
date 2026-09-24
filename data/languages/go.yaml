@@ -1,0 +1,63 @@
+schemaVersion: 1
+language:
+  id: go
+  name: Go
+  aliases:
+    - Golang
+  introduction: go-intro
+  summary: A compiled language that favors small interfaces, straightforward tooling, and built-in
+    concurrency.
+  paradigms:
+    - Imperative
+    - Concurrent
+milestones:
+  - id: go-intro
+    language: go
+    date:
+      year: 2009
+    title: Public open-source release
+    kind: introduction
+    explanation: Google releases Go publicly with goroutines, channels, and a compact language design.
+    citations:
+      - go-history
+  - id: go-1
+    language: go
+    date:
+      year: 2012
+    title: Go 1 compatibility baseline
+    kind: standard
+    version: "1.0"
+    explanation: Go 1 establishes a stable language and a compatibility commitment.
+    citations:
+      - go-history
+  - id: go-generics
+    language: go
+    date:
+      year: 2022
+    title: Type parameters
+    kind: feature
+    version: "1.18"
+    explanation: Go 1.18 introduces type parameters for generic functions and types.
+    citations:
+      - go-history
+influences:
+  - id: c-go-intro
+    source: c
+    destination: go-intro
+    title: Familiar systems syntax
+    adopted: A C-family syntactic foundation.
+    changed: Go simplifies declarations and combines that foundation with garbage collection and goroutines.
+    evidence: documented
+    citations:
+      - go-ancestors
+  - id: pascal-go-intro
+    source: pascal
+    destination: go-intro
+    title: Declarations and packages
+    adopted: Ideas from the Pascal, Modula, and Oberon family.
+    changed: Go integrates them with its own package system and interface model.
+    evidence: documented
+    citations:
+      - go-ancestors
+    caveat: This is a family-level influence; the FAQ does not attribute every feature specifically to
+      Pascal.

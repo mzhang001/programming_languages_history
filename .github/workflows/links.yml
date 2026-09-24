@@ -1,0 +1,28 @@
+name: Citation links
+on:
+  schedule:
+    - cron: '21 7 * * 1'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm check:links
+        continue-on-error: true
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: citation-link-report
+          path: link-report.json
+      - name: Add report to job summary
+        if: always()
+        run: node -e 'const r=require("./link-report.json"); require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY, `${r.checked} URLs checked; ${r.failures.length} need manual review. See the citation-link-report artifact. No historical records were changed.\n`)'

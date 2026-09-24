@@ -1,0 +1,46 @@
+schemaVersion: 1
+language:
+  id: ml
+  name: ML
+  aliases:
+    - Standard ML
+    - SML
+  introduction: ml-intro
+  summary: A family of typed functional languages known for inference, algebraic data types, and
+    pattern matching.
+  paradigms:
+    - Functional
+    - Imperative
+  scope: This row covers the ML family through selected Standard ML milestones. OCaml and other
+    descendants can be added as separate entries.
+milestones:
+  - id: ml-intro
+    language: ml
+    date:
+      year: 1978
+    title: Type polymorphism paper
+    kind: introduction
+    explanation: Milner describes ML in his paper on type polymorphism. The language had been developed
+      for LCF from 1973; the Edinburgh LCF book follows in 1979.
+    citations:
+      - ml-history
+  - id: ml-sml
+    language: ml
+    date:
+      year: 1990
+    title: Definition of Standard ML
+    kind: standard
+    explanation: A formal definition specifies Standard ML and its module system.
+    citations:
+      - ml-history
+  - id: ml-97
+    language: ml
+    date:
+      year: 1997
+    title: Revised Standard ML definition
+    kind: standard
+    version: "97"
+    explanation: The revised definition refines the language, including its treatment of polymorphism.
+    citations:
+      - ml-history
+influences: []
