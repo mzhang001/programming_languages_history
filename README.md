@@ -1,5 +1,9 @@
 # Language Atlas
 
+[Explore the website](https://mzhang001.github.io/programming_languages_history/) ·
+[Contribute on GitHub](https://github.com/mzhang001/programming_languages_history) ·
+[Build and browser tests](https://github.com/mzhang001/programming_languages_history/actions/workflows/ci.yml)
+
 An open-source, interactive history of programming ideas. Explore languages along
 a year axis, follow documented influences, and compare what each language adopted
 and changed.

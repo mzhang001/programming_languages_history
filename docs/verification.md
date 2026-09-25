@@ -1,7 +1,8 @@
 # Verification record
 
-The initial release was checked locally on macOS with Chromium. These results
-describe the implementation before publication; they are not GitHub CI results.
+The initial release was checked locally on macOS with Chromium and subsequently
+on GitHub's Linux runner. The detailed checks below describe local verification;
+the public CI record is linked under Publication.
 
 - `pnpm check`: data validation, TypeScript, ESLint, 28 unit/component tests,
   and production build passed.
@@ -25,10 +26,13 @@ The browser run initially found an ambiguous test locator matching both an arrow
 and a comparison button. Scoping it to the comparison panel resolved the failure;
 the full suite then passed without retries.
 
-## Publication remaining
+## Publication
 
-Create the public GitHub repository, push the commits, enable Pages as described
-in the README, and inspect the hosted site and CI result. These steps require an
-authenticated GitHub account and the intended repository owner.
+The public repository is
+[mzhang001/programming_languages_history](https://github.com/mzhang001/programming_languages_history).
+The [Checks workflow](https://github.com/mzhang001/programming_languages_history/actions/workflows/ci.yml)
+runs validation and browser tests on Linux before deploying to
+[GitHub Pages](https://mzhang001.github.io/programming_languages_history/).
+See the workflow history for results associated with each commit.
 
 The architecture and implementation sequence are in [the roadmap](architecture.md).
